@@ -8,6 +8,8 @@
             </div>
         </c:if>
         <h2>タスク管理システムへようこそ</h2>
+         <p><a href="<c:url value='/users/new' />">新規ユーザーの登録</a></p>
+          <p><a href="<c:url value='/login' />">ログイン</a></p>
         <h3>【自分のタスク 一覧】</h3>
 
         <table id="task_list">
