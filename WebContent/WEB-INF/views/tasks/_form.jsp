@@ -24,15 +24,15 @@
 <textarea name="content" rows="10" cols="50">${task.content}</textarea>
 <br /><br />
 
-<label for="title">締切日</label><br />
-<input type="text" name="limit" value="${task.limit}" />
+<label for="limit2">締切日</label><br />
+<input type="text" name="limit2" value="${task.limit2}" />
 <br /><br />
 
-<label for="title">着手日</label><br />
+<label for="start">着手日</label><br />
 <input type="text" name="start" value="${task.start}" />
 <br /><br />
 
-<label for="title">終了日</label><br />
+<label for="finish">終了日</label><br />
 <input type="text" name="finish" value="${task.finish}" />
 <br /><br />
 

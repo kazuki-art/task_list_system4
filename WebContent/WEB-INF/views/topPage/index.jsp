@@ -18,7 +18,7 @@
                 <tr>
                     <th class="task_name">氏名</th>
                     <th class="task_title">タイトル</th>
-                    <th class="task_limit">締め切り日</th>
+                    <th class="task_limit2">締め切り日</th>
 
                     <th class="task_action">操作</th>
                 </tr>
@@ -27,7 +27,7 @@
                         <td class="task_name"><c:out value="${task.user.name}" /></td>
 
                         <td class="task_title">${task.title}</td>
-                        <td class="task_limit">${task.limit}</td>
+                        <td class="task_limit2">${task.limit2}</td>
                         <td class="task_action"><a href="<c:url value='/tasks/show?id=${task.id}' />">詳細を見る</a></td>
                     </tr>
                 </c:forEach>

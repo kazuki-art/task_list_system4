@@ -50,7 +50,7 @@ public class Task {
     private String content;
 
     @Column(name = "limit2", length = 255, nullable = false)
-    private String limit;
+    private String limit2;
 
     @Column(name = "start", length = 255, nullable = false)
     private String start;
@@ -90,12 +90,12 @@ public class Task {
         this.content = content;
     }
 
-    public String getLimit() {
-        return limit;
+    public String getLimit2() {
+        return limit2;
     }
 
-    public void setLimit(String limit) {
-        this.limit = limit;
+    public void setLimit2(String limit2) {
+        this.limit2 = limit2;
     }
 
     public String getStart() {
